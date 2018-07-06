@@ -53,7 +53,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 "/find-by-model-id",
                 "/find-cars-by-model",
                 "/hello/**",
-                "/totalCount"
+                "/totalCount",
+                "/executeNativeSQL",
+                "/updateIsDeleteUser"
         );
     }
 
